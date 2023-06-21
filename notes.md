@@ -163,7 +163,7 @@ vs hardlink
 
 
 
-Tasks
+Day 1 - Tasks
 1. Delete all irrelevant users and groups
 2. Create 2 groups group101 and group102
 3. Create following users with respective setting
@@ -183,9 +183,21 @@ user2
 https://forms.office.com/Pages/ResponsePage.aspx?id=oyt4z26SBEqefqovbhjzTW-KYMT-Z8xAoV_dPJKY65tUNTVCQjVZTjhMR1pEWVlQWElRT0M3RUtFVi4u
 
 
+Day 1 - Review
 https://forms.office.com/r/wjYuDat2Pg
 
-
+Day 2 - Tasks / Assignments
+1. Create a simple script and called it /scripts/day2-assignment.sh. 
+2. The script will perform following tasks
+a. Get 3 numbers during script execution
+b. Add these three numbers into a variable called total
+c. Divide the total variable by 3 and save the result into a variable called average
+d. Display following message
+   "Total is <value from total variable>"
+   "Average is <value from average variable>"
+3. Ensure above script file has 750 permission mode
+4. Collect package information on bash package and save result into /scripts/files/bash-info.md file
+ 
 
 yum repositories / apt --> dnf 
 - central packages location (web server) / online 
@@ -278,6 +290,43 @@ bash
 var1=100
 (( x=var1*22 ))
 
+
+
+
+Disks
+interface - disk
+- IDE
+- SATA / NL-SAS - HDD
+- SAS - SSD/HDD
+- FC - SSD/HDD
+- NVMe - SSD
+
+/dev/sda split into multiple applications
+/dev/sda5 1G (xfs)	- /data1
+/dev/sda6 1G (xfs)	- /data2
+/dev/sda7 5G (xfs)	- /html
+
+/dev/nvme0n1 - OS installed
+
+/dev/nvme0n2 split into multiple application
+500M (xfs)	- /email1	
+500M (ext4)	- /email2
+1G   (xfs)	- /testing
+
+
+4x Primary - for OS
+1x Extended - for logical
+15x Logical -
+
+
+https://forms.office.com/r/AwTApYAmHZ
+
+
+
+grep
+fgrep : fixed string grep
+egrep : expression grep . multiple criteria grep
+pgrep : grep processes
 
 
 
