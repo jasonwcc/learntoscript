@@ -2,8 +2,10 @@
 Install either chrome or use Microsoft Edge
 Connect to MS Teams
 - https://teams.live.com/meet/9538347223211
+
 Do assessment (30 minutes)
 - https://forms.office.com/r/29x4YT789H
+
 Github
 - https://github.com/jasonwcc/learntoscript
 
