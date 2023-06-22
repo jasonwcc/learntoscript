@@ -332,6 +332,79 @@ egrep : expression grep . multiple criteria grep
 pgrep : grep processes
 
 
+find lines starts with s or w and ends with number between 7-9
+sed -n '/^[sw].*[7-9]$/p' data.file
+
+
+find students scoring 6th column >=.80 and from northwest and northeast region
+
+
+Ali	1000.50
+Kelvin	999.99
+
+printf "%10s %7.2f " $1,$2
+ 
+Based data.file 6th column
+A - >= 90 
+B - 50-89
+F - <50
+
+
+Day 3 - Assignment : 
+objective:  create a script
+1. ask 2 numbers
+2. if non-numerical value or 0 is entered - error msg "Invalid number, empty or zero detected"
+4. if no error - Multiply those 2 numbers and display the result
+5. Post ur answer at https://forms.office.com/r/PtJqs7t5Sd
+
+Day 4 Review :
+https://forms.office.com/r/9MbrASyn8t
+
+
+while [[ condition = true ]]
+do
+   commands
+done
+
+until [[ condition = false ]]
+do
+  command
+done
+
+for user in ali murthi chong sam peter
+do
+  cmd1
+  if murthi ... file
+  then 
+     exit
+  else
+    cmd2
+    cmd3
+  fi
+  
+  cmd4
+
+done
+
+cmd5
+cmd6
+
+
+
+
+
+Day 4 - Assignment:
+Tasks
+1. Using employees.db, create script to check on each employee's age. If it is over 30 years old then say "Employee is a senior staff else say "Employee is junior staff"
+
+2. Create a script to create user. 
+- the script will ask for username
+- if the username provided start with any special symbols/metacharacters, the script should abort and display error message saying "Username should not starts with metacharacters"
+
+3. Delete user accounts with PID between 5000 and 60000
+- Also make sure to delete their home directory
+
+
 
 
 
