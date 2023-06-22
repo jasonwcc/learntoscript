@@ -395,14 +395,27 @@ cmd6
 
 Day 4 - Assignment:
 Tasks
-1. Using employees.db, create script to check on each employee's age. If it is over 30 years old then say "Employee is a senior staff else say "Employee is junior staff"
+1. Using employees.db, create script to check on each employee's age. If it is over 30 years old then say "Employee-name is a senior staff else say "Employee-name is junior staff"
 
 2. Create a script to create user. 
 - the script will ask for username
 - if the username provided start with any special symbols/metacharacters, the script should abort and display error message saying "Username should not starts with metacharacters"
 
-3. Delete user accounts with PID between 5000 and 60000
+3. Delete user accounts with UID between 5000 and 60000
 - Also make sure to delete their home directory
+
+https://forms.office.com/r/gMFVU1LEV3
+
+
+
+
+
+
+
+
+
+
+
 
 
 
