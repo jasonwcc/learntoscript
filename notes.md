@@ -397,7 +397,7 @@ Day 4 - Assignment:
 Tasks
 1. Using employees.db, create script to check on each employee's age. If it is over 30 years old then say "Employee-name is a senior staff else say "Employee-name is junior staff"
 
-2. Create a script to create user. 
+2. Create a script called create.user.sh to create user
 - the script will ask for username
 - if the username provided start with any special symbols/metacharacters, the script should abort and display error message saying "Username should not starts with metacharacters"
 
@@ -406,13 +406,45 @@ Tasks
 
 https://forms.office.com/r/gMFVU1LEV3
 
+Day 2 - Tasks / Assignments
+1. Create a simple script and called it /scripts/day2-assignment.sh. 
+2. The script will perform following tasks
+a. Get 3 numbers during script execution
+b. Add these three numbers into a variable called total
+c. Divide the total variable by 3 and save the result into a variable called average
+d. Display following message
+   "Total is <value from total variable>"
+   "Average is <value from average variable>"
+3. Ensure above script file has 750 permission mode
+4. Collect package information on bash package and save result into /scripts/files/bash-info.md file
+
+Day 5 - Review (Day 2 - Tasks / Assignments)
+1. Make sure scripts folder is in /
+2. Make sure it is own by root
+3. Make sure all objectives in Day 2 - Tasks is completed - accurately
+4. Backup /scripts folder content into /backup/2023/trainocate/day2-scripts.tar.gz
+
+ 
+
+gunzip -cd filename
+or
+tar -ztvf filename
 
 
+Day 5 - Tasks / Assignment
+With the employee.awk file created in Day 2 - Assignment, create a script and named it searchbydept.sh so that
+- Ask user which dept to generate the report.
+- if dept no match, then display message  "<whatever user enter> dept not found"
+- if user press ctrl+z, it will list all departments uniquely example :
+ctrl+z
+List of available departments:
+Directors
+Sales
+Training
+Press enter to continue
+- all data must be dynamically queried from the employees.db
 
-
-
-
-
+https://forms.office.com/r/Z1EJQ460Mf
 
 
 
