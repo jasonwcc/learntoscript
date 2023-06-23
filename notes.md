@@ -426,23 +426,23 @@ Day 5 - Review (Day 2 - Tasks / Assignments)
 
  
 
-gunzip -cd filename
-or
-tar -ztvf filename
-
 
 Day 5 - Tasks / Assignment
-With the employee.awk file created in Day 2 - Assignment, create a script and named it searchbydept.sh so that
-- Ask user which dept to generate the report.
-- if dept no match, then display message  "<whatever user enter> dept not found"
-- if user press ctrl+z, it will list all departments uniquely example :
+1. With the employee.awk file created in Day 2 - Assignment, create a script and named it searchbydept.sh so that
+
+1a. Ask user which dept to generate the report.
+
+1b. if dept no match, then display message  "<whatever user enter> dept not found"
+
+1c. if user press ctrl+z, it will list all departments uniquely example :
 ctrl+z
 List of available departments:
 Directors
 Sales
 Training
 Press enter to continue
-- all data must be dynamically queried from the employees.db
+
+2. All data must be dynamically queried from the employees.db
 
 https://forms.office.com/r/Z1EJQ460Mf
 
