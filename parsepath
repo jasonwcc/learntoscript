@@ -1,0 +1,15 @@
+
+# Name: firstfunc.ksh
+
+function parsepath
+{
+	name=$1
+	echo; echo "The pathname is : $name"
+	
+	while [[ -n $name ]]
+	do
+		echo $name
+		name=${name%/*}
+	done
+	echo
+}
